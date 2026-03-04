@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery | Hayat Function Hall</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container"><div class="row">
+      <div class="badge"><span class="dot"></span> Food • Events • Setup</div>
+      <div class="badge">Bookings: <a href="tel:+447495231595">0749 523 1595</a></div>
+    </div></div>
+  </div>
+
+  <header class="nav">
+    <div class="container"><div class="row">
+      <a class="brand" href="index.html">
+        <div class="brand-mark">H</div>
+        <div class="brand-title"><strong>HAYAT</strong><span>Function Hall & Catering</span></div>
+      </a>
+
+      <nav class="navlinks" data-navlinks>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="gallery.html">Gallery</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn small primary" href="https://wa.me/447495231595" target="_blank" rel="noopener">WhatsApp</a>
+        <button class="hamburger" data-burger aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div></div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-title">
+        <div>
+          <h2>Gallery</h2>
+          <p>Click any image to view. Replace these files with your real event and food photos.</p>
+        </div>
+        <a class="btn small danger" href="tel:+447495231595">Call for Booking</a>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gitem" data-gimg="assets/gallery1.jpg"><img src="assets/gallery1.jpg" alt="Gallery 1"></div>
+        <div class="gitem" data-gimg="assets/gallery2.jpg"><img src="assets/gallery2.jpg" alt="Gallery 2"></div>
+        <div class="gitem" data-gimg="assets/gallery3.jpg"><img src="assets/gallery3.jpg" alt="Gallery 3"></div>
+        <div class="gitem" data-gimg="assets/gallery4.jpg"><img src="assets/gallery4.jpg" alt="Gallery 4"></div>
+
+        <!-- Extra: use brochure preview if you want -->
+        <div class="gitem" data-gimg="assets/brochure.png"><img src="assets/brochure.png" alt="Brochure"></div>
+        <div class="gitem" data-gimg="assets/menu1.jpg"><img src="assets/menu1.jpg" alt="Menu 1"></div>
+        <div class="gitem" data-gimg="assets/menu2.jpg"><img src="assets/menu2.jpg" alt="Menu 2"></div>
+        <div class="gitem" data-gimg="assets/menu3.jpg"><img src="assets/menu3.jpg" alt="Menu 3"></div>
+      </div>
+
+      <div class="strip">
+        <div>
+          <strong>Want your event featured?</strong><br/>
+          <span>Send photos/videos on WhatsApp — we can add them to the gallery.</span>
+        </div>
+        <a class="btn small primary" href="https://wa.me/447495231595" target="_blank" rel="noopener">Send on WhatsApp</a>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div>
+          <h4>Hayat Function Hall</h4>
+          <p>London NW9 8UP • Halal Catering & Events</p>
+          <p><strong style="color:var(--gold);">M:</strong> <a href="tel:+447495231595">0749 523 1595</a></p>
+        </div>
+        <div>
+          <h4>Pages</h4>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="services.html">Services</a></p>
+          <p><a href="about.html">About</a></p>
+        </div>
+        <div>
+          <h4>Social</h4>
+          <div class="social">
+            <a href="#" target="_blank" rel="noopener">Instagram</a>
+            <a href="#" target="_blank" rel="noopener">Facebook</a>
+            <a href="#" target="_blank" rel="noopener">TikTok</a>
+            <a href="#" target="_blank" rel="noopener">YouTube</a>
+          </div>
+        </div>
+      </div>
+      <div class="subfooter">
+        <span>© <span id="y"></span> Hayat Function Hall.</span>
+        <span>Book via WhatsApp.</span>
+      </div>
+    </div>
+  </footer>
+
+  <div class="lightbox" data-lightbox>
+    <button class="btn close" data-lightbox-close>Close</button>
+    <img data-lightbox-img alt="Gallery preview" />
+  </div>
+
+ <script src="js/site-config.js"></script>
+<script src="js/main.js"></script>
+  <script src="js/main.js"></script>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+</body>
+</html>
